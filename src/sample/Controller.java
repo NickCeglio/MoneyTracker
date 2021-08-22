@@ -122,5 +122,7 @@ public class Controller {
         for (String s : dataArray) {
             list.getItems().add(s);
         }
+        total.clear();
+        total.setText(total.getText() + getTotal());
     }
 }

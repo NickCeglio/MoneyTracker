@@ -25,5 +25,6 @@
          <font>
             <Font size="14.0" />
          </font></TextArea>
+      <Button layoutX="415.0" layoutY="85.0" mnemonicParsing="false" onAction="#listDisplay" text="Display Total" />
    </children>
 </Pane>
