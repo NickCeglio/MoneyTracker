@@ -18,7 +18,7 @@
       <Text layoutX="310.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount = " wrappingWidth="65.173828125" />
       <Text layoutX="330.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date = " />
       <Line endX="49.0" endY="370.0" layoutX="251.0" layoutY="30.0" startX="49.0" startY="-30.0" />
-      <ListView fx:id="list" prefHeight="401.0" prefWidth="299.0" />
+      <ListView fx:id="list" layoutY="48.0" prefHeight="353.0" prefWidth="299.0" />
       <Text layoutX="329.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total =" />
       <Button fx:id="add" layoutX="499.0" layoutY="338.0" mnemonicParsing="false" onAction="#addition" text="Add" />
       <TextArea fx:id="total" editable="false" layoutX="372.0" layoutY="124.0" prefHeight="73.0" prefWidth="174.0">
@@ -26,5 +26,20 @@
             <Font size="14.0" />
          </font></TextArea>
       <Button layoutX="415.0" layoutY="85.0" mnemonicParsing="false" onAction="#listDisplay" text="Display Total" />
+      <Text layoutX="14.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="72.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="160.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="New Balance">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
    </children>
 </Pane>

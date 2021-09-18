@@ -14,7 +14,7 @@ public class TxtWriter {
             FileWriter writer = new FileWriter("C:/Users/ncegl/Documents/ProjectMoneyDoc.txt", true);
             BufferedWriter bufferedWriter = new BufferedWriter(writer);
 
-            bufferedWriter.write(date + "~" + sign + amount + "~" + total);
+            bufferedWriter.write(date + "      " + sign + amount + "      " + total);
             bufferedWriter.newLine();
 
             bufferedWriter.close();

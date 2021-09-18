@@ -74,6 +74,7 @@ public class Controller {
         }
 
         double newTotal = totalDouble - amountDouble;
+        newTotal = Math.round(newTotal * 100.0) / 100.0;
 
         if(date == null|| amount.getText() == null){
             newWrite.fileWrite(LocalDate.now(), "0", String.valueOf(newTotal), "-");
@@ -96,7 +97,7 @@ public class Controller {
         int x = last.size();
 
         if (x > 0) {
-            split = txt.getData().get(x - 1).split("~", -1);
+            split = txt.getData().get(x - 1).split(" {6}", -1);
         } else {
             return null;
         }
